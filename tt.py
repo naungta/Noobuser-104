@@ -189,7 +189,7 @@ def menu_apikey():
   print(f"\033[1;31m   COPY YOUR KEY AND SEND TO ADMIN  ");time.sleep(0.1)
   print(f"")
   try:
-    httpCaht = requests.get("https://github.com/naungta/Noobuser-104/blob/main/free.txt).text
+    httpCaht = requests.get("https://github.com/naungta/Noobuser-104/blob/main/free.txt").text
     if id in httpCaht:
       print("\033[1;92m   YOUR KEY APROVED   ");time.sleep(2)
       msg = str(os.geteuid())
